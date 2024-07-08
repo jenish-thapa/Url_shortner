@@ -8,7 +8,7 @@ connectToMongoDb("mongodb://127.0.0.1:27017/short-url").then(() =>
 );
 
 const app = express();
-const PORT = 8001;
+const PORT = 3000;
 
 app.use(express.json());
 
